@@ -1,0 +1,2 @@
+Curl al pod api personas desde el pod busy box
+La evidencia esta en el siguiente directorio /k8s-proyecto-final/screens/punto 4

@@ -1,8 +1,12 @@
 # brew install --cask google-cloud-sdk
 # gcloud init
-# gcloud auth application-default login  #cuenta defaut configurada
+# gcloud auth application-default login
 # gcloud container clusters get-credentials mygke-cluster --region us-east1
-# kubectl create clusterrolebinding your-dev-user-cluster-admin-binding --clusterrole=cluster-admin --user=w.marchanaranda@gmail.com
+# kubectl create clusterrolebinding your-dev-user-cluster-admin-binding --clusterrole=cluster-admin --user=w.marchanaranda@gmail.com    export KUBECONFIG=kubeconfig
+# terraform init
+# terraform apply --var-file=values.tfvars --auto-approve
+# terraform destroy --var-file=values.tfvars --auto-approve
+
 
 provider "google" {
   project = var.project_id

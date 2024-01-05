@@ -1,0 +1,2 @@
+Creacion de los dos namespace
+La evidencia esta en el siguiente directorio /k8s-proyecto-final/screens/punto 5

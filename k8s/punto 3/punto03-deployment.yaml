@@ -23,7 +23,7 @@ spec:
         - name: MYSQL_ROOT_HOST
           value: "%"      
     - name: mariadb-container
-      image: rruales06/bdd-api-persona:1.0.0
+      image: danpancho/k8apipersondb:0.0.1
       env:
         - name: MYSQL_ROOT_PASSWORD
           value: toor
